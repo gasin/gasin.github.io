@@ -40,7 +40,7 @@ body{
 	-moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-	background:linear-gradient(to bottom, #FF00FF,	#7FFFD4);
+	background:linear-gradient(to bottom, #FF00FF,	#4B0082);
 }
 .button:hover{
 	opacity: 0.6;
