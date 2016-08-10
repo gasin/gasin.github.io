@@ -1,0 +1,25 @@
+#title{
+	font-size: 280%;
+	color: blue;
+	text-align: center;
+	font-style: italic;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+}
+#icon{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+body{
+	background-color: #d8edfc;
+	color: #000000;
+}
+.normal{
+	font-size: 110%;
+}
+.normal1{
+	font-size: 130%;
+}
+.normal2{
+	font-size: 180%;
+}
