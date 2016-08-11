@@ -7,8 +7,8 @@
 }
 #icon{
 	position: absolute;
-	top: 30px;
-	right: 30px;
+	top: 20px;
+	left: 400px;
 }
 #sityou{
 	position: absolute;
@@ -23,7 +23,7 @@
 }
 #twitter{
 	position: absolute;
-	top: 150px;
+	top: 30px;
 	left: 940px;
 }
 body{
