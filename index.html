@@ -8,7 +8,8 @@
 	</head>
 	<body>
 		<p><div id="title">gasin's page</div></p>
-		<a href="https://twitter.com/_gacin"><img id="icon" src="icon.jpg" width="100px" height="100px" alt="icon"></a>
+		<a href="https://twitter.com/_gacin"><img id="icon" src="icon.jpg" width="100px" height="100px" alt="twitter"></a>
+		<img id="sityou" src="sityou.jpg" width="250px" height="250px" alt="tsumego">
 		<div class="normal2">my hobby</div>
 		<dl>
 			<div class="normal1"><dt>Go</dt></div>
@@ -17,18 +18,24 @@
 				<dd>2nd place at the KoukouSensyuken and the KoukouSenbatu</dd>
 				</div>
 			<br>
-			<div class="normal1"><dt>competitive programming</dt></div>
+			<div class="normal1"><dt>Competitive Programming</dt></div>
 				<div class="normal">
 				<dd><a href="http://codeforces.com/profile/gasin">codeforces</a></dd>
 				<dd><a href="https://www.topcoder.com/members/gasin/details/?track=DATA_SCIENCE&subTrack=SRM">topcoder</a></dd>
 				<dd><a href="https://atcoder.jp/user/gasin">atcoder</a></dd>
 				</div>
 		</dl>
+		<br><br><br><br>
 		<p>
 		<form action="#">
-			<div align="right"><input id="button0" class="button" type="submit" value="find your favorite background" onclick="button();"></div>
+			<div align="left">
+			<input id="button0" class="button" type="submit" value="click!" onclick="button();">
+			<br><br>
+			<input class="button" type="submit" value="click!" onclick="drawCircle();">
+			</div>
 		</form>
 		</p>
+		<canvas id="circle" width="140" height="140"></canvas>
 		<a href="http://google.com"><div align="right" class="normal">see you</div></a>
 	</body>
 </html>
