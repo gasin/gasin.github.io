@@ -27,8 +27,10 @@
 	left: 940px;
 }
 body{
-	background-color: #d8edfc;
+	background: linear-gradient(-45deg, rgba(250, 92, 255, .8), rgba(92, 255, 244, .8)),
+	url(flower.jpg);
 	color: #000000;
+	background-size: cover;
 }
 .normal{
 	font-size: 110%;
