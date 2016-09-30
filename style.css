@@ -1,67 +1,53 @@
-#title{
-	font-size: 280%;
-	color: blue;
-	text-align: center;
-	font-style: italic;
-	text-shadow: 1px 1px 0 rgba(0,0,0,.2);
-}
-#icon{
-	position: absolute;
-	top: 20px;
-	left: 400px;
-}
-#sityou{
-	position: absolute;
-	top: 250px;
-	left: 300px;
-}
-#zem{
-	position: absolute;
-	top: 130px;
-	left: 650px;
-	border: 2px solid #4B0082;
-}
-#twitter{
-	position: absolute;
-	top: 30px;
-	left: 940px;
-}
 body{
-	background: linear-gradient(-45deg, rgba(250, 92, 255, .8), rgba(92, 255, 244, .8)),
-	url(flower.jpg);
-	color: #000000;
-	background-size: cover;
-}
-.normal{
-	font-size: 110%;
-}
-.normal1{
-	font-size: 130%;
-}
-.normal2{
-	font-size: 180%;
+    
+    background:linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),url(horse.jpg);
+    background-size:cover;
 }
 
-.button{
-	font-size: 130%;
-	background-color: #9400D3;
-	color: #D3D3D3;
-	border-style: none;
-	box-shadow: 2px 2px 3px 1px #666;
-    -moz-box-shadow: 2px 2px 3px 1px #666;
-    -webkit-box-shadow: 2px 2px 3px 1px #666;
-	text-align: center;
-	text-shadow: 1px 1px 2px #000;
-	
-	-moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-	background: #000000;
-}
-.button:hover{
-	opacity: 0.6;
+a{
+    font-color:	#00BFFF;
+    text-decoration:none;
 }
 
+.header{
+    text-align: center;
+    font-size: 600%;
+    font-color: #1E90FF;
+    font-family: 'Dancing Script', cursive;
+}
 
+.main{
+    margin-top: 30px;
+    padding: 20px;
+}
 
+.topic{
+    background-color:rgba(0,255,255,.2);
+    margin: 10px;
+    padding: 10px;
+}
 
+.subheader{
+    text-align: center;
+    font-size: 350%;
+    border-bottom: 1px solid #000080;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.category{
+    font-size: 200%;
+    font-family: 'Noto Serif', serif;
+    padding: 10px;
+}
+
+.component{
+    font-family: 'Noto Serif', serif;
+    font-size: 150%;
+}
+
+.footer{
+    text-align: right;
+    font-size: 120%;
+    font-family: 'Noto Serif', serif;
+    margin-top: 30px;
+}
