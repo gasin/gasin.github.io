@@ -11,7 +11,7 @@ function init(){
     }
     document.close();
     if(isPC == 0){
-        document.getElementById("fooer").innerHTML="For more beautiful design and more exciting gimmick, please view this site on the PC!";
+        document.getElementById("footer").innerHTML="For more beautiful design and more exciting gimmick, please view this site on the PC!";
     }
 }
 
