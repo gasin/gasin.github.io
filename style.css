@@ -6,13 +6,24 @@ body{
 }
 
 a{
-    font-color:	#00BFFF;
     text-decoration:none;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+a:link{
+    color: #0000FF;
+}
+a:visited{
+    color: #0000FF;
+}
+a:active:{
+    color: #0000FF;
 }
 
 a:hover{
-    /*font-color: #FF0000;*/
-    background-color: #000000;
+    background-color: rgba(0,0,0,.4);
+    color: #E6E6FA;
 }
 
 .header{
