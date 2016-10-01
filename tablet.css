@@ -59,14 +59,6 @@
         display:"none";
     }
 
-    .vanish{
-        text-align: center;
-        font-size:150%;
-        font-family: 'Noto Serif', serif;
-        background: radial-gradient(#F2B9A1, #8B008B);
-        border-radius: 50%;
-    }
-
     .footer{
         text-align: right;
         font-size: 120%;
