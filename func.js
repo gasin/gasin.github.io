@@ -10,8 +10,11 @@ function init(){
         isPC = 1;
     }
     document.close();
+}
+
+window.onload = funcion(){
     if(isPC == 0){
-        document.getElementById("footer").innerHTML="For more beautiful design and more exciting gimmick, please view this site on the PC!";
+        document.getElementById("footer").innerHTML="For more beautiful degign and more exciting gimmicks, please view this site on the PC!";
     }
 }
 
