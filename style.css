@@ -17,7 +17,7 @@ a:hover{
 .header{
     text-align: center;
     font-size: 600%;
-    font-color: #1E90FF;
+    color: #000080;
     font-family: 'Dancing Script', cursive;
 }
 
@@ -30,6 +30,7 @@ a:hover{
     background-color:rgba(0,255,255,.2);
     margin: 10px;
     padding: 10px;
+    border-radius: 5%;
 }
 
 .subheader{
@@ -37,6 +38,7 @@ a:hover{
     font-size: 350%;
     border-bottom: 1px solid #000080;
     font-family: 'Baloo Bhai', cursive;
+    color:#8B4513;
 }
 
 .category{
