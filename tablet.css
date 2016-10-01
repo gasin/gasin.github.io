@@ -1,11 +1,10 @@
 body{
-    
     background:linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),url(flower.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    min-width: 3000px;
-    min-height: 3000px;
-    background-size:cover;
+    min-height: 100%;
+    min-width: 100%;
+    background-size: cover;
     background-attachment:fixed;
 }
 
