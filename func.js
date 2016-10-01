@@ -18,6 +18,20 @@ function disappear(){
     document.getElementById("introduce").style.display="none";
 }
 
+$(window).load(function() {
+    h = $(window).height();
+    $("body").css("min-height", h + "px");
+    w = $(window).width();
+    $("body").css("min-height", w+"px");
+});
+
+$(window).resize(function() {
+    h = $(window).height();
+    $("body").css("min-height", h + "px");
+    w = $(window).width();
+    $("body").css("min-height", w+"px");
+});
+
 function appear(){
     if(isPC == 0) return;
     document.getElementById("gimmick").style.display="block";
