@@ -12,7 +12,7 @@ function init(){
     document.close();
 }
 
-window.onload = funcion(){
+window.onload = function(){
     if(isPC == 0){
         document.getElementById("footer").innerHTML="For more beautiful degign and more exciting gimmicks, please view this site on the PC!";
     }
