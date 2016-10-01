@@ -10,6 +10,9 @@ function init(){
         isPC = 1;
     }
     document.close();
+    if(isPC == 0){
+        document.getElementById("fooer").innerHTML="For more beautiful design and more exciting gimmick, please view this site on the PC!";
+    }
 }
 
 function disappear(){
@@ -17,20 +20,6 @@ function disappear(){
     document.getElementById("gimmick").style.display="none";
     document.getElementById("introduce").style.display="none";
 }
-
-$(window).load(function() {
-    h = $(window).height();
-    $("body").css("min-height", h + "px");
-    w = $(window).width();
-    $("body").css("min-height", w+"px");
-});
-
-$(window).resize(function() {
-    h = $(window).height();
-    $("body").css("min-height", h + "px");
-    w = $(window).width();
-    $("body").css("min-height", w+"px");
-});
 
 function appear(){
     if(isPC == 0) return;
