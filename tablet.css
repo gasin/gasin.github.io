@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(-135deg, #E4A972, #9941D8);
+    background: radial-gradient(#F2B9A1, #EA6264);
 }
 
 a{
@@ -56,6 +56,8 @@ a:hover{
 }
 
 .footer{
+    background-color:rgba(255,0,0,.5);
+    border-radius: 5%:
     text-align: right;
     font-size: 120%;
     font-family: 'Noto Serif', serif;
