@@ -1,78 +1,76 @@
-@media screen and (min-width: 901px){
-    body{
-        
-        background:linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),url(horse.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-attachment:fixed;
-    }
+body{
+    
+    background:linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),url(horse.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
 
-    a{
-        font-color:	#00BFFF;
-        text-decoration:none;
-    }
+a{
+    font-color:	#00BFFF;
+    text-decoration:none;
+}
 
-    a:hover{
-        /*font-color: #FF0000;*/
-        background-color: #000000;
-    }
+a:hover{
+    /*font-color: #FF0000;*/
+    background-color: #000000;
+}
 
-    .header{
-        text-align: center;
-        font-size: 600%;
-        color: #000080;
-        font-family: 'Dancing Script', cursive;
-    }
+.header{
+    text-align: center;
+    font-size: 600%;
+    color: #000080;
+    font-family: 'Dancing Script', cursive;
+}
 
-    .main{
-        margin-top: 30px;
-        padding: 20px;
-        overflow: hidden;
-    }
+.main{
+    margin-top: 30px;
+    padding: 20px;
+    overflow: hidden;
+}
 
-    .submain{
-        float: left;
-    }
+.submain{
+    float: left;
+}
 
-    .topic{
-        background-color:rgba(0,255,255,.2);
-        margin: 10px;
-        padding: 10px;
-        border-radius: 5%;
-    }
+.topic{
+    background-color:rgba(0,255,255,.2);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
+}
 
-    .subheader{
-        text-align: center;
-        font-size: 350%;
-        border-bottom: 1px solid #000080;
-        font-family: 'Baloo Bhai', cursive;
-        color:#8B4513;
-    }
+.subheader{
+    text-align: center;
+    font-size: 350%;
+    border-bottom: 1px solid #000080;
+    font-family: 'Baloo Bhai', cursive;
+    color:#8B4513;
+}
 
-    .category{
-        font-size: 200%;
-        font-family: 'Noto Serif', serif;
-        padding: 10px;
-    }
+.category{
+    font-size: 200%;
+    font-family: 'Noto Serif', serif;
+    padding: 10px;
+}
 
-    .component{
-        font-family: 'Noto Serif', serif;
-        font-size: 150%;
-    }
+.component{
+    font-family: 'Noto Serif', serif;
+    font-size: 150%;
+}
 
-    .vanish{
-        text-align: center;
-        font-size:150%;
-        font-family: 'Noto Serif', serif;
-        background: radial-gradient(#F2B9A1, #8B008B);
-        border-radius: 50%;
-    }
+.vanish{
+    text-align: center;
+    font-size:150%;
+    font-family: 'Noto Serif', serif;
+    background: radial-gradient(#F2B9A1, #8B008B);
+    border-radius: 50%;
+}
 
-    .footer{
-        text-align: right;
-        font-size: 120%;
-        font-family: 'Noto Serif', serif;
-        margin-top: 30px;
-    }
+.footer{
+    text-align: right;
+    font-size: 120%;
+    font-family: 'Noto Serif', serif;
+    margin-top: 30px;
 }
