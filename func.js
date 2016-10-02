@@ -29,3 +29,13 @@ function appear(){
     document.getElementById("gimmick").style.display="block";
     document.getElementById("introduce").style.display="block";
 }
+
+function black(){
+    if(isPC == 0) return;
+    document.getElementById("main").style.backgroundColor= "#000000";
+}
+
+function preblack(){
+    if(isPC == 0) return;
+    document.getElementById("main").style.backgroundColor = "rgba(0,0,0,0)";
+}

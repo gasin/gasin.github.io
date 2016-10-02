@@ -3,6 +3,7 @@
 	<head>
 		<title>gasin's page</title>
 		<meta charset="UTF-8">
+        <script type="text/javascript" src="jquery-3.1.1.js"></script>
         <script type="text/javascript" src="func.js"></script>
         <script>init();</script>
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
@@ -11,7 +12,7 @@
 	</head>
 	<body>
         <div class="header" onmouseover="appear();">gasin's page</div>
-        <div class="main">
+        <div class="main" id="main">
             <div class="submain" id="introduce">
                 <div class="topic">
                     <div class="subheader">about me</div>
@@ -48,9 +49,9 @@
                         Please enjoy!<br>
                     </div>
                     <br>
-                    <div class="vanish">
-                        <div class="vanish" onmousemove="disappear();">vanish!!!</div>
-                    </div>
+                    <div class="black" onmouseover="black();" onmouseout="preblack();">black</div>
+                    <br>
+                    <div class="vanish" onmousemove="disappear();">vanish</div>
                 </div>
             </div>
         </div>
