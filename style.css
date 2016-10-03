@@ -69,6 +69,15 @@ a:hover{
     font-size: 150%;
 }
 
+#gimmick{
+    animation: changecolor 2s ease -2s infinite alternate;
+}
+
+@keyframes changecolor{
+    0%{color: #00FF00;}
+    100%{color: #8B4513;}
+}
+
 .black{
     text-align: center;
     font-size: 200%;
