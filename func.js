@@ -18,6 +18,35 @@ window.onload = function(){
     }
 }
 
+$(function() {
+    var $clickable = $(".header");
+
+    $clickable.on('mousedown', function(e) {
+        var _self   = this;
+        var x       = e.offsetX;
+        var y       = e.offsetY;
+
+        var $effect = $(_self).find('.free');
+        var w       = $effect.width();
+        var h       = $effect.height();
+
+        $effect.css({
+            left: x - w / 2,
+            top: y - h / 2
+        });
+
+        if (!$effect.hasClass('is-show')) {
+            $effect.addClass('is-show');
+
+            setTimeout(function() {
+                $effect.removeClass('is-show');
+            }, 1500);
+        }
+        return false;
+    });
+
+});
+
 function disappear(){
     if(isPC == 0) return;
     document.getElementById("gimmick").style.display="none";
@@ -39,3 +68,4 @@ function preblack(){
     if(isPC == 0) return;
     document.getElementById("main").style.backgroundColor = "rgba(0,0,0,0)";
 }
+

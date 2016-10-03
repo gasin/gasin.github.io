@@ -32,6 +32,30 @@ a:hover{
     font-family: 'Dancing Script', cursive;
 }
 
+.free{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 100%;
+    transform: scale(0);
+    opacity: 0;
+    background-color: #000000;
+}
+
+.free.is-show{
+    animation: ripple 1.5s ease-out;
+}
+
+@keyframes ripple{
+    from{
+        opacity: 1;
+    }
+    to{
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
 .main{
     margin-top: 30px;
     padding: 20px;
@@ -70,7 +94,7 @@ a:hover{
 }
 
 #gimmick_title{
-    animation: changecolor 2s ease -2s infinite alternate;
+    animation: changecolor 6s ease -6s infinite alternate;
 }
 
 @keyframes changecolor{
