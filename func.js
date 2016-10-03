@@ -14,7 +14,7 @@ function init(){
 
 window.onload = function(){
     if(isPC == 0){
-        document.getElementById("footer").innerHTML="For more beautiful dezign and more exciting gimmicks, <br>please view this site on the PC!";
+        document.getElementById("footer").innerHTML="For more beautiful design and more exciting gimmicks, <br>please view this site on the PC!";
     }
 }
 
