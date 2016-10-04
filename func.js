@@ -57,7 +57,7 @@ function swell(){
     } else if(isSwell%4 == 2){
         document.getElementById("swell").style.fontSize="100%";
         document.getElementById("swell").style.width="50%";
-        document.getElementById("swell").InnerHTML = "swell";
+        document.getElementById("swell").innerHTML = "swell";
     } else if(isSwell%4 == 1){
         document.getElementById("swell").style.fontSize="200%";
     } else{
