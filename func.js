@@ -1,4 +1,5 @@
 var isPC;
+var isSwell = 0;
 
 function init(){
     var ua = navigator.userAgent;
@@ -17,7 +18,7 @@ window.onload = function(){
         document.getElementById("footer").innerHTML="For more beautiful design and more exciting gimmicks, <br>please view this site on the PC!";
     }
 }
-
+/*
 $(function() {
     var $clickable = $(".header");
 
@@ -46,6 +47,35 @@ $(function() {
     });
 
 });
+*/
+
+function swell(){
+    if(isPC == 0) return;
+    if(isSwell%4 == 0){
+        document.getElementById("swell").style.fontSize="500%";
+    } else if(isSwell%4 == 2){
+        document.getElementById("swell").style.fontSize="100%";
+        document.getElementById("swell").style.width="50%";
+    } else if(isSwell%4 == 1){
+        document.getElementById("swell").style.fontSize="200%";
+        document.getElementById("swell").innerHTML="shrink";
+    } else{
+        document.getElementById("swell").style.fontSize="200%";
+        document.getElementById("swell").innerHTML="swell";
+        document.getElementById("swell").style.width="";
+    }
+    isSwell += 1;
+}
+
+function shrink(){
+    if(isPC == 0) return;
+    document.getElementById("swell").style.fontSize="200%";
+    if(isSwell%2 == 1){
+        document.getElementById("swell").innerHTML="shrink";
+    } else{
+        document.getElementById("swell").innerHTML="swell";
+    }
+}
 
 function disappear(){
     if(isPC == 0) return;
